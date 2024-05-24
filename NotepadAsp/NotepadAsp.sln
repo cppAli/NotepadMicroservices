@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotepadAsp", "NotepadAsp\No
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{7A8CD429-90BD-4F14-B090-645E27DC7F55}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservises", "Microservises", "{CAF3F2E2-EF2F-4242-8F08-F3BC6F5771E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8A37C1B-9D4B-4C98-A74B-0F107D2E2DBC} = {CAF3F2E2-EF2F-4242-8F08-F3BC6F5771E3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4E057D04-17EF-40B8-81FF-51C00B1510F3}
