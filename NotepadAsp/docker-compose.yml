@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  notepadasp:
+    image: ${DOCKER_REGISTRY-}notepadasp
+    build:
+      context: .
+      dockerfile: NotepadAsp\Dockerfile
